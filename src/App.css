@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+nav {
+  border-bottom: solid 1px;
+  padding-bottom: 1rem;
+  margin-top: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link {
+  border-radius: 4px;
+  margin: 14px;
+  padding: 0.7em;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: large;
 }
